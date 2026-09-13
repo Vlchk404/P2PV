@@ -1,0 +1,9 @@
+# Compiled binaries
+/build/
+*.exe
+
+# Wintun ships as a DLL next to the binary; it is downloaded, not committed.
+wintun.dll
+
+# Local logs from test runs
+*.log
